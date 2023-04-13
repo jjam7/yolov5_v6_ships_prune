@@ -1,0 +1,27 @@
+2023-04-03 11:25:45,132 INFO    MainThread:16608 [wandb_setup.py:_flush():76] Configure stats pid to 16608
+2023-04-03 11:25:45,132 INFO    MainThread:16608 [wandb_setup.py:_flush():76] Loading settings from C:\Users\howej\.config\wandb\settings
+2023-04-03 11:25:45,132 INFO    MainThread:16608 [wandb_setup.py:_flush():76] Loading settings from E:\Desktop\yolov5--prune\wandb\settings
+2023-04-03 11:25:45,132 INFO    MainThread:16608 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-03 11:25:45,132 INFO    MainThread:16608 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'finetune_pruned.py', 'program': 'finetune_pruned.py'}
+2023-04-03 11:25:45,132 INFO    MainThread:16608 [wandb_setup.py:_flush():76] Applying login settings: {'login_timeout': 30}
+2023-04-03 11:25:45,132 INFO    MainThread:16608 [wandb_init.py:_log_setup():506] Logging user logs to E:\Desktop\yolov5--prune\wandb\run-20230403_112545-400hxm6e\logs\debug.log
+2023-04-03 11:25:45,132 INFO    MainThread:16608 [wandb_init.py:_log_setup():507] Logging internal logs to E:\Desktop\yolov5--prune\wandb\run-20230403_112545-400hxm6e\logs\debug-internal.log
+2023-04-03 11:25:45,132 INFO    MainThread:16608 [wandb_init.py:init():546] calling init triggers
+2023-04-03 11:25:45,133 INFO    MainThread:16608 [wandb_init.py:init():553] wandb.init called with sweep_config: {}
+config: {'weights': 'pruned_model.pt', 'cfg': 'models/yolov5s.yaml', 'data': 'data/ship.yaml', 'hyp': {'lr0': 0.001, 'lrf': 0.1, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0}, 'epochs': 150, 'batch_size': 32, 'imgsz': 320, 'rect': False, 'resume': False, 'nosave': False, 'noval': False, 'noautoanchor': False, 'evolve': None, 'bucket': '', 'cache': None, 'image_weights': False, 'device': '', 'multi_scale': False, 'single_cls': False, 'adam': True, 'sync_bn': False, 'workers': 16, 'project': 'runs\\train', 'name': 'Finetune', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'patience': 100, 'freeze': [0], 'save_period': -1, 'local_rank': -1, 'entity': None, 'upload_dataset': False, 'bbox_interval': -1, 'artifact_alias': 'latest', 'save_dir': 'runs\\train\\Finetune'}
+2023-04-03 11:25:45,133 INFO    MainThread:16608 [wandb_init.py:init():602] starting backend
+2023-04-03 11:25:45,133 INFO    MainThread:16608 [wandb_init.py:init():606] setting up manager
+2023-04-03 11:25:45,135 INFO    MainThread:16608 [backend.py:_multiprocessing_setup():108] multiprocessing start_methods=spawn, using: spawn
+2023-04-03 11:25:45,138 INFO    MainThread:16608 [wandb_init.py:init():613] backend started and connected
+2023-04-03 11:25:45,139 INFO    MainThread:16608 [wandb_init.py:init():701] updated telemetry
+2023-04-03 11:25:45,141 INFO    MainThread:16608 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-04-03 11:25:46,821 INFO    MainThread:16608 [wandb_run.py:_on_init():2133] communicating current version
+2023-04-03 11:25:47,512 INFO    MainThread:16608 [wandb_run.py:_on_init():2142] got version response 
+2023-04-03 11:25:47,512 INFO    MainThread:16608 [wandb_init.py:init():789] starting run threads in backend
+2023-04-03 11:25:50,607 INFO    MainThread:16608 [wandb_run.py:_console_start():2114] atexit reg
+2023-04-03 11:25:50,607 INFO    MainThread:16608 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-04-03 11:25:50,607 INFO    MainThread:16608 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-04-03 11:25:50,607 INFO    MainThread:16608 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-04-03 11:25:50,607 INFO    MainThread:16608 [wandb_init.py:init():831] run started, returning control to user process
+2023-04-03 11:25:50,609 INFO    MainThread:16608 [wandb_run.py:_config_callback():1251] config_cb None None {'data_dict': {'train': 'Data-ship\\train1.txt', 'val': 'Data-ship\\val1.txt', 'nc': 1, 'names': ['ship']}}
+2023-04-03 11:40:51,701 WARNING MsgRouterThr:16608 [router.py:message_loop():77] message_loop has been closed

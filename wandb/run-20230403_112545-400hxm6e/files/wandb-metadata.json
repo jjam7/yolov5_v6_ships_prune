@@ -1,0 +1,56 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.7.16",
+    "heartbeatAt": "2023-04-03T03:25:47.618199",
+    "startedAt": "2023-04-03T03:25:45.128448",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--weights",
+        "pruned_model.pt",
+        "--data",
+        "data/ship.yaml",
+        "--epochs",
+        "150",
+        "--img",
+        "320",
+        "--adam",
+        "--name",
+        "Finetune"
+    ],
+    "state": "running",
+    "program": "finetune_pruned.py",
+    "codePath": "finetune_pruned.py",
+    "host": "Jam_hoo",
+    "username": "howej",
+    "executable": "C:\\Users\\howej\\anaconda3\\envs\\pytorch\\python.exe",
+    "cpu_count": 12,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2500.0,
+        "min": 0.0,
+        "max": 2500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.0,
+            "min": 0.0,
+            "max": 2500.0
+        }
+    ],
+    "disk": {
+        "total": 531.4960899353027,
+        "used": 187.71917724609375
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.797355651855469
+    }
+}
